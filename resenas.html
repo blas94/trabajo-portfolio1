@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <link rel="manifest" href="icons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>Trabajo Practico 2</title>
+    <link rel="icon" href="/img/pacman.png" type="image/png">
+</head>
+<body>
+    <header class="header">
+        <h1>PAC-MAN</h1>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="reglas.html">Reglas</a></li>
+                <li><a href="#resenas">Reseñas</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="contenedorPrin">
+            <section class="cajaReglas">
+                <figure class="imgPrin"><img src="pacmanLaberinto.jpg" alt="imagén reglas"></figure>
+                <div class="txtReglas">
+                    <h2 class="h2-reglas">Reseñas</h2>
+                </div>
+            </section>
+        </div>
+        <div class="contenedorReglas">
+            <section class="caja-derecha">
+                <figure class="imgRes"><img src="usuario1.png" alt="imagén 1"></figure>
+                <div class="txtDer">
+                    <h2 class="usuario1">RetroMaster82</h2>
+                    <p>"Pac-Man es un clásico atemporal. Me trae tantos recuerdos de mi infancia, cuando solía pasar horas tratando de superar mis propios récords. Es un juego sencillo pero adictivo que nunca pasa de moda. ¡Un verdadero tesoro en la historia de los videojuegos!"</p>
+                </div>
+            </section>
+            <section class="caja-derecha">
+                <figure class="imgRes"><img src="usuario2.png" alt="imágen 3"></figure>
+                <div class="txtDer">
+                    <h2 class="usuario2">ArcadeKing75</h2>
+                    <p>"Descubrí Pac-Man recientemente y, a pesar de ser un juego retro, me enganchó desde el primer momento. Su jugabilidad es increíblemente intuitiva y desafiante a la vez. Es fácil entender por qué ha sido un ícono durante tanto tiempo."</p>
+                </div>
+            </section>
+            <section class="caja-derecha">
+                <figure class="imgRes"><img src="usuario3.png" alt="imágen 3"></figure>
+                <div class="txtDer">
+                    <h2 class="usuario3">PixelHero88</h2>
+                    <p>"Pac-Man no solo es un juego, es una experiencia cultural. La simplicidad del diseño y la complejidad de los niveles crean una combinación perfecta que sigue siendo relevante hoy en día. Jugar Pac-Man es una experiencia nostálgica y refrescante a la vez."</p>
+                </div>
+            </section>
+        </div>
+        <div class="segunda-mitad">
+            <h2 class="h2-reglas">Dejanos tu reseña aquí</h2>
+            <form class="form">
+                <label for="nombre">Nombre</label>
+                <input id= "nombre" name="nombre" placeholder="Ingrese su nombre" type="text" required>
+                <label for="email">Email</label>
+                <input id= "email" name="email" placeholder="Ingrese su email" type="email" required>
+                <label for="archivo">Suba una foto de usted</label>
+                <input id="archivo" name="archivo" type="file" required>
+                <label for="calificación">Califica del 1 al 5</label>
+                <input id="calificación" name="calificación" type="range" min="1" max="5">
+                <textarea name="reseña" id="reseña" required>Deje aquí su reseña</textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </main>
+
+    <footer class="foot">        
+        <div class="links-container">
+            <ul class="pags">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="reglas.html">Reglas</a></li>
+                <li><a href="#resenas">Reseñas</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+            <ul class="links">
+                <li><a href="https://pacman.com/en/" target="_blank">Página oficial PAC-MAN</a></li>
+                <li><a href="https://www.pacmangratis.net/" target="_blank">Juega al PAC-MAN aquí</a></li>
+            </ul>
+        </div>
+        <div class="logos">
+            <ul class="logosUL">
+                <li><figure>
+                    <img src="logoFB.png" alt="logoFacebook">
+                </figure></li>
+                <li><figure>
+                    <img src="logoTW.png" alt="logoTwitter">
+                </figure></li>
+                <li><figure>
+                    <img src="logoIG.png" alt="logoInstagram">
+                </figure></li>
+                <li><figure>
+                    <img src="logoYT.png" alt="logoYoutube">
+                </figure></li>
+            </ul>
+        </div>
+        <p class="copy">©Bandai Namco Entertainment Inc.</p>
+    </footer>
+</body>
+</html>

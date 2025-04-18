@@ -1,0 +1,749 @@
+body {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: large;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    background-image: url(../images/celulares1.png), url(../images/2fondo..png), url(../images/3fondo.png);
+    background-size: 20%, 8%, 17%;
+    background-position: 97% 70%, 90% 10%, 6% 42.5%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-attachment: absolute, absolute, absolute;
+}
+
+/* PÁGINA DE REGLAS */
+/* HEADER Y NAV */
+
+.header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: black;
+    background-image: url(/IMG/pacman.png), url(/IMG/fondo.png);
+    background-size: 10%, 50%;
+    background-position: 1% 5%, 50% 100%;
+    background-repeat: no-repeat, repeat;
+    background-attachment: absolute;
+}
+
+a {
+    font-size: x-large;
+    color: #FFD700;
+    text-decoration: none;
+    transition: all  750ms;
+}
+
+a:hover {
+    color: #FFC0CB;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0 40px;
+}
+
+.nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+ul li a {
+    font-weight: bold;
+}
+
+/* MAIN */
+
+main {
+    margin: auto;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.slider li {
+    list-style: none;
+}
+
+ul.carousel {
+    width: 800px;
+    height: 300px;
+    position: relative;
+    margin: 0 auto;
+}
+
+ul.carousel li {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity 0.5s;
+    background: #fff;
+}
+
+ul.carousel li img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+ul.carousel li:first-child {
+    opacity: 1;
+}
+
+ul.carousel li:target {
+    opacity: 1;
+}
+
+.menu {
+    text-align: center;
+    margin: 1.5rem;
+}
+
+ul.menu {
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    background-color: #FFD700;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    border-radius: 100px;
+}
+
+p, h1, h2 {
+    color: #FFD700;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+.caja {
+    text-align: center;
+    margin: 20px;
+    width: 300px;
+    padding: 50px;
+}
+
+#prueba1 {
+    padding: 53px 0;
+}
+
+#prueba2 {
+    padding: 85px 0;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-height: 55vh;
+    overflow: hidden;
+}
+
+.videoGif {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.caja figure {
+    margin: 0;
+}
+
+.caja figure img {
+    width: 100%;
+    height: auto;
+}
+
+/* FOOTER */
+
+.foot {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #f2f2f2;
+    background-image: url(/IMG/pacman.png), url(/IMG/fantasmita.png), url(/IMG/fondo.png);
+    background-size: 10%, 7%, 50%;
+    background-position: 1% 5%, 97% 85%, 45% 100%;
+    background-repeat: no-repeat, no-repeat, repeat;
+    position: relative;
+}
+
+.links-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pags, .links {
+    list-style: none;
+    padding: 0;
+    margin: 0 100px;
+}
+
+.pags li, .links li {
+    margin: 5px 0;
+}
+
+.copy {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: small;
+    color: white;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logosUL {
+    position: absolute;
+    bottom: 10px;
+    right: 270px;
+    left: 760px;
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.logosUL li {
+    margin: 0 10px;
+}
+
+.logosUL figure {
+    margin: 0;
+}
+
+.logosUL img {
+    width: 55px;
+    height: auto;
+}
+  
+/* PÁGINA DE REGLAS */
+
+.contenedorPrin{
+    margin: 5rem;
+    max-width: 100%;
+}
+
+.cajaReglas{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+
+.txtReglas{
+    max-width: 50%;
+    margin-left: 5rem;
+}
+
+.imgPrin img {
+    width: 420px;
+    height: auto;
+}
+
+.contenedorReglas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    margin: 5rem;
+}
+
+.caja-derecha, .caja-izquierda {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.caja-derecha {
+    flex-direction: row;
+}
+
+.caja-izquierda {
+    flex-direction: row-reverse;
+}
+
+.imgReglas img {
+    width: 300px;
+    height: auto;
+}
+
+.txtDer, .txtIzq {
+    max-width: 50%;
+    margin-left: 5rem;
+}
+
+.h2-reglas {
+    font-size: 100px;
+}
+
+.usuario1 {
+    color: #FF0000;
+}
+
+.usuario2 {
+    color: #00FFFF;
+}
+
+.usuario3 {
+    color: #FFA500;
+}
+
+
+/* PÁGINA DE RESEÑAS */
+
+.imgRes {
+    width: 14rem;
+    height: 14rem;
+    background-color: rgb(64, 52, 165);
+    border: solid #FFD700 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.imgRes img {
+    width: 300px;
+    height: auto;
+}
+
+.segunda-mitad {
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgb(64, 52, 165);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form {
+    max-width: 30rem;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FFD700;
+    border-radius: 10px;
+}
+
+.form label {
+    display: inline-block;
+    margin: 5px;
+}
+
+.form input,
+.form textarea,
+.form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid black 1.5px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* PÁGINA DE GRACIAS */
+
+.pagGracias {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(64, 52, 165);
+    font-size: xx-large;
+}
+
+.pagGracias figure img {
+    width: 300px;
+    height: 300px;
+}
+
+.pagGracias a {
+    font-size: xx-large;
+    text-decoration: underline overline;
+}
+
+@media screen and (min-width:320px) and (max-width:480px){
+    body {
+        overflow-x: hidden;
+    }
+    * {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+    header{
+        width: 100%;
+        padding: 5px;
+    }
+    .nav ul {
+        list-style: none;
+        padding: 0 15px;
+    }
+    .nav ul li {
+        display: inline;
+        margin-right: 5px;
+    }
+    .container {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    ul.carousel {
+        width: 100%;
+        position: relative;
+        margin: 0 auto;
+    }
+    ul.carousel li img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+    .menu {
+        width: 100%;
+        text-align: center;
+        margin: 12px;
+    }
+    ul.menu {
+        padding: 0;
+    }
+    .menu li a {
+        display: block;
+        color: #000;
+        text-decoration: none;
+        background-color: #FFD700;
+        padding: 2px;
+        width: 50px;
+        height: auto;
+        line-height: 50px;
+        font-size: 20px;
+        border-radius: 100px;
+    }
+    .contenedor {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    #prueba1, #prueba2 {
+        padding: 0;
+    }
+    .videoGif {
+        width: 100%;
+        height: 100%;
+    }
+    .foot {
+        text-align: center;
+        padding: 25px 0;
+        background-color: #f2f2f2;
+        background-image: url(/IMG/pacman.png), url(/IMG/fantasmita.png), url(/IMG/fondo.png);
+        background-size: 10%, 7%, 50%;
+        background-position: 1% 5%, 97% 85%, 45% 100%;
+        background-repeat: no-repeat, no-repeat, repeat;
+        position: relative;
+    }
+    .pags, .links {
+        list-style: none;
+        padding: 0;
+        margin: 0 70px;
+    }
+    .pags li, .links li {
+        margin: 5px;
+    }
+    .links-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .copy {
+        position: absolute;
+        left: 20px;
+        font-size: small;
+        color: white;
+    }
+    .logos {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .logosUL {
+        position: static;
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+    }  
+    .logosUL li {
+        margin: 0 10px;
+    }    
+    .logosUL img {
+        width: 37px;
+        height: auto;
+    }
+    .contenedorPrin, .contenedorReglas {
+        margin: 2rem;
+        padding: 0;
+    }
+    .cajaReglas {
+        flex-direction: column;
+        text-align: center;
+    }
+    .txtReglas {
+        margin-left: 0;
+        margin-top: 1rem;
+        max-width: 100%;
+    }
+    .imgPrin img {
+        width: 100%;
+        height: auto;
+    }
+    .caja-derecha, .caja-izquierda {
+        flex-direction: column;
+        margin-bottom: 1rem;
+        align-items: center;
+    }
+    .caja-derecha .txtDer, .caja-izquierda .txtIzq {
+        margin-left: 0;
+        margin-top: 1rem;
+        max-width: 100%;
+        text-align: center;
+    }
+    .imgReglas img {
+        width: 100%;
+        height: auto;
+    }
+    .h2-reglas {
+        font-size: 3rem;
+    }
+    .pagGracias{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        min-height: 100vh;
+        background-color: rgb(64, 52, 165);
+        font-size: x-large;
+    }
+    .pagGracias figure img[alt="fantasmitaRojo"] {
+        display: none;
+    }
+    .pagGracias h1{
+        font-size: xx-large;
+        padding-top: 1em;
+    }
+    .pagGracias figure img {
+        display: flex;
+        flex-wrap: wrap;
+        width: auto;
+        height: auto;
+    }
+    .pagGracias a {
+        font-size: x-large;
+        text-decoration: underline overline;
+    }
+}
+
+@media screen and (min-width:1280px) and (max-width:1366px) {
+    body {
+        overflow-x: hidden;
+    }
+    * {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+    .nav ul {
+        list-style: none;
+        padding: 0 40px;
+    }
+    .nav ul li {
+        display: inline;
+        margin-right: 20px;
+    }
+    .container {
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+    ul.carousel {
+        width: 800px;
+        height: 300px;
+        position: relative;
+        margin: 0 auto;
+    }
+    ul.carousel li img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+    .menu {
+        text-align: center;
+        margin: 1.5rem;
+    }
+    ul.menu {
+        padding: 0;
+    }
+    .menu li a {
+        display: block;
+        color: #000;
+        text-decoration: none;
+        background-color: #FFD700;
+        padding: 10px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 20px;
+        border-radius: 100px;
+    }
+    .contenedor {
+        display: flex;
+        justify-content: center;
+    }
+    #prueba1 {
+        padding: 53px 0;
+    }
+    #prueba2 {
+        padding: 85px 0;
+    }
+    .videoGif {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+    .foot {
+        text-align: center;
+        padding: 100px 0;
+        background-color: #f2f2f2;
+        background-image: url(/IMG/pacman.png), url(/IMG/fantasmita.png), url(/IMG/fondo.png);
+        background-size: 10%, 7%, 50%;
+        background-position: 1% 5%, 97% 85%, 45% 100%;
+        background-repeat: no-repeat, no-repeat, repeat;
+        position: relative;
+    }
+    .links-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pags, .links {
+        list-style: none;
+        padding: 0;
+        margin: 0 100px;
+    }
+    .pags li, .links li {
+        margin: 5px 0;
+    }
+    .copy {
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        font-size: small;
+        color: white;
+    }
+    .logos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logosUL {
+        position: absolute;
+        bottom: 10px;
+        right: 270px;
+        left: 760px;
+        list-style: none;
+        padding: 0;
+        display: flex;
+    }
+    .logosUL li {
+        margin: 0 10px;
+    }
+    .logosUL img {
+        width: 55px;
+        height: auto;
+    }
+    .contenedorPrin{
+        margin: 5rem;
+        max-width: 100%;
+    }
+    .contenedorReglas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
+        margin: 5rem;
+    }
+    .cajaReglas{
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+    }
+    .txtReglas{
+        max-width: 50%;
+        margin-left: 5rem;
+    }
+    .imgPrin img {
+        width: 420px;
+        height: auto;
+    }
+    .caja-derecha, .caja-izquierda {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-bottom: 20px;
+    }
+    .caja-derecha {
+        flex-direction: row;
+    }
+    .caja-izquierda {
+        flex-direction: row-reverse;
+    }
+    .txtDer, .txtIzq {
+        max-width: 50%;
+        margin-left: 5rem;
+    }
+    .imgReglas img {
+        width: 300px;
+        height: auto;
+    }
+    .h2-reglas {
+        font-size: 100px;
+    }
+    .pagGracias {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: rgb(64, 52, 165);
+        font-size: xx-large;
+    }
+    .pagGracias figure img {
+        width: 300px;
+        height: 300px;
+    }
+    .pagGracias a {
+        font-size: xx-large;
+        text-decoration: underline overline;
+    }
+}
