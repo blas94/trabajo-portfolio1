@@ -18,7 +18,7 @@ body {
     text-align: center;
     padding: 20px 0;
     background-color: black;
-    background-image: url(/IMG/pacman.png), url(/IMG/fondo.png);
+    background-image: url(pacman.png), url(fondo.png);
     background-size: 10%, 50%;
     background-position: 1% 5%, 50% 100%;
     background-repeat: no-repeat, repeat;
@@ -179,7 +179,7 @@ p, h1, h2 {
     text-align: center;
     padding: 100px 0;
     background-color: #f2f2f2;
-    background-image: url(/IMG/pacman.png), url(/IMG/fantasmita.png), url(/IMG/fondo.png);
+    background-image: url(pacman.png), url(fantasmita.png), url(fondo.png);
     background-size: 10%, 7%, 50%;
     background-position: 1% 5%, 97% 85%, 45% 100%;
     background-repeat: no-repeat, no-repeat, repeat;
@@ -456,7 +456,7 @@ p, h1, h2 {
         text-align: center;
         padding: 25px 0;
         background-color: #f2f2f2;
-        background-image: url(/IMG/pacman.png), url(/IMG/fantasmita.png), url(/IMG/fondo.png);
+        background-image: url(pacman.png), url(fantasmita.png), url(fondo.png);
         background-size: 10%, 7%, 50%;
         background-position: 1% 5%, 97% 85%, 45% 100%;
         background-repeat: no-repeat, no-repeat, repeat;
@@ -634,7 +634,7 @@ p, h1, h2 {
         text-align: center;
         padding: 100px 0;
         background-color: #f2f2f2;
-        background-image: url(/IMG/pacman.png), url(/IMG/fantasmita.png), url(/IMG/fondo.png);
+        background-image: url(pacman.png), url(fantasmita.png), url(fondo.png);
         background-size: 10%, 7%, 50%;
         background-position: 1% 5%, 97% 85%, 45% 100%;
         background-repeat: no-repeat, no-repeat, repeat;
