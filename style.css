@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: black;
-    background-image: url(celulares1.png), url(2fondo..png), url(3fondo.png);
+    background-image: url(celulares1.png), url(2fondo.png), url(3fondo.png);
     background-size: 20%, 8%, 17%;
     background-position: 97% 70%, 90% 10%, 6% 42.5%;
     background-repeat: no-repeat, no-repeat, no-repeat;
